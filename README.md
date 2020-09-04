@@ -24,6 +24,4 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="http://g.recordit.co/6NxAkxL3dt.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
-
 I had some issues with the AlamoFire setup, but I figured it out by installing the pod.
