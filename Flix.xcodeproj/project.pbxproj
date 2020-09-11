@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		C5015E432501B06800D34EB4 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5015E422501B06800D34EB4 /* FlixUITests.swift */; };
 		C5015E512501B3F200D34EB4 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5015E502501B3F200D34EB4 /* MoviesViewController.swift */; };
 		C5A72C2D2501FEC400A7200D /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A72C2C2501FEC400A7200D /* MovieCell.swift */; };
+		C5EAC2A1250B3594009EF230 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EAC2A0250B3594009EF230 /* MovieDetailsViewController.swift */; };
+		C5EAC2A3250B40F7009EF230 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EAC2A2250B40F7009EF230 /* MovieGridViewController.swift */; };
+		C5EAC2A5250B4A71009EF230 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EAC2A4250B4A71009EF230 /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		C5015E442501B06800D34EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5015E502501B3F200D34EB4 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		C5A72C2C2501FEC400A7200D /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		C5EAC2A0250B3594009EF230 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		C5EAC2A2250B40F7009EF230 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		C5EAC2A4250B4A71009EF230 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,6 @@
 				48387C912B6CAFE23BD967C9 /* Pods-FlixTests.debug.xcconfig */,
 				63FB5EBD2CEA5F72966A9A53 /* Pods-FlixTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +155,9 @@
 				C5015E2B2501B06800D34EB4 /* LaunchScreen.storyboard */,
 				C5015E2E2501B06800D34EB4 /* Info.plist */,
 				C5015E502501B3F200D34EB4 /* MoviesViewController.swift */,
+				C5EAC2A0250B3594009EF230 /* MovieDetailsViewController.swift */,
+				C5EAC2A2250B40F7009EF230 /* MovieGridViewController.swift */,
+				C5EAC2A4250B4A71009EF230 /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -411,10 +419,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5EAC2A1250B3594009EF230 /* MovieDetailsViewController.swift in Sources */,
 				C5015E212501B06200D34EB4 /* AppDelegate.swift in Sources */,
 				C5015E232501B06200D34EB4 /* SceneDelegate.swift in Sources */,
 				C5A72C2D2501FEC400A7200D /* MovieCell.swift in Sources */,
 				C5015E512501B3F200D34EB4 /* MoviesViewController.swift in Sources */,
+				C5EAC2A3250B40F7009EF230 /* MovieGridViewController.swift in Sources */,
+				C5EAC2A5250B4A71009EF230 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
